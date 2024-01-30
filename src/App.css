@@ -1,0 +1,165 @@
+
+.app-container {
+  display: flex;
+}
+.bg
+{
+  background-color: aliceblue;
+}
+.bg1
+{
+  background-color:white;
+}
+.fs
+{
+  font-size: xx-small;
+}
+
+.btns
+{
+  background-color:aliceblue;
+  border: none;
+}
+.fss
+{
+  height: 35px;
+}
+.h
+{
+  height: 118vh
+}
+.btns1
+{
+  font-size: 11px;
+  border: none;
+}
+.img-fluid
+{
+  width: 50px;
+}
+
+.box
+{
+  position:absolute;
+  top: 70px;
+  right: 50px;
+  border: 1px;
+  background-color:lavender;
+ 
+}
+.box h6
+{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.active
+{
+  background-color: goldenrod;
+  border-radius: 15px;
+ 
+}
+.color
+{
+  background-color:rgb(75, 75, 211);
+}
+.modal-dialog
+{
+
+  max-width: 1000px;
+  
+ 
+}
+.modal-title
+{
+  margin-left:auto;
+}
+
+.btn-close
+{
+ background-color:red;
+ border-radius: 50%;
+}
+.auto
+{
+  width: 300px;
+  border: 2px solid black;
+}
+.font
+{
+  font-size: 70px
+}
+.bg2
+{
+  background-color: rgb(234, 230, 230);
+}
+
+.nav-link:hover
+{
+  background-color:goldenrod;
+  
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+  .scrollable_nav
+{
+  max-height: 500px;
+  overflow-y: auto;
+}
+  .nav
+  {
+    width: 100vw;
+  }
+  .d
+  {
+    display: flex;
+    align-items:baseline;
+  }
+  
+  .f
+  {
+    display: inline-flex;
+  }
+  .align
+  {
+    margin-inline-start:-30px;
+  }
+
+
+.c
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cc
+{
+  width: fit-content;
+}
+  
+  @media (max-width: 281px){
+    .input-group-text
+    {
+     display: none;
+    }
+    
+  }
+  .btns
+  {
+  width:97px ;
+  }
+  .cont
+  {
+    columns: 1;
+  }
+ 
+}
+
